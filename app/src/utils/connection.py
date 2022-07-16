@@ -11,7 +11,7 @@ DB_PASS = settings.db_pass
 DB_HOST = settings.db_host
 DB_PORT = settings.db_port
 
-db_engine = create_engine('mysql://' + DB_USER + ":" + DB_PASS + "@" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME)
+# db_engine = create_engine('mysql://' + DB_USER + ":" + DB_PASS + "@" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME)
 
 Session = sessionmaker(autocommit = False, autoflush = False)
 
