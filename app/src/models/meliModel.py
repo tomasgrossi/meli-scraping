@@ -1,0 +1,6 @@
+
+
+
+
+class SteamModel(Base):
+    pass
