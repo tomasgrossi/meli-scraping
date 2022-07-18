@@ -12,6 +12,5 @@ class Settings(BaseSettings):
     db_pass: str = os.getenv('DB_PASS')
     db_host: str = os.getenv('DB_HOST')
     db_port: str = os.getenv('DB_PORT')
-    APP_PATH: str = os.getenv('APP_PATH')
 
     

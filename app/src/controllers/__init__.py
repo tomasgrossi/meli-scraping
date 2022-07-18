@@ -1,2 +1,2 @@
 from .meliController import *
-from .router import Router
+from .router import *
